@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "xentrader",
+    "sub_name": "",
+    "format": "",
+    "build_class": "",
+    "build_method": "",
+    "controller": "XenTrader:Trader",
+    "context": "home",
+    "action_prefix": ""
+}
