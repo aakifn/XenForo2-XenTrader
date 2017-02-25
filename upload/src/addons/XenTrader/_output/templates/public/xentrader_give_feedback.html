@@ -1,0 +1,17 @@
+<xf:title>{{ phrase('xentrader_give_feedback') }}: {$user.username}</xf:title>
+
+<xf:form action="{{ link('members/give-feedback', $user) }}" class="block" ajax="true">
+    <div class="block-container">
+        <div class="block-body">
+            <xf:radiorow label="{{ phrase('xentrader_your_role') }}" name="role">
+                <xf:option value="buyer" label="{{ phrase('xentrader_buyer') }}" />
+                <xf:option value="seller" label="{{ phrase('xentrader_seller') }}" />
+                <xf:option value="trader" label="{{ phrase('xentrader_trader') }}" />
+            </xf:radiorow>
+
+            <xf:textarearow label="{{ phrase('xentrader_tell_us_more') }}" name="feedback" autosize="true" />
+        </div>
+
+        <xf:submitrow submit="{{ phrase('xentrader_give_feedback') }}" />
+    </div>
+</xf:form>

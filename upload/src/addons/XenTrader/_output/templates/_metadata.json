@@ -1,4 +1,9 @@
 {
+    "public/xentrader_give_feedback.html": {
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "11c4c2e3cec6ce7b98be444fcef49667"
+    },
     "public/xentrader_index.html": {
         "version_id": 4000010,
         "version_string": "4.0.0 Alpha",

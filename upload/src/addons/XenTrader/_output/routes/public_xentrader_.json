@@ -6,6 +6,6 @@
     "build_class": "",
     "build_method": "",
     "controller": "XenTrader:Trader",
-    "context": "home",
+    "context": "xentrader",
     "action_prefix": ""
 }

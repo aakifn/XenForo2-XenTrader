@@ -1,0 +1,9 @@
+{
+    "template": "member_macros",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$xf.visitor.canStartConversationWith($user)\">\n\t\t\t\t<xf:button href=\"{{ link('conversations/add', null, {'to': $user.username}) }}\" class=\"button--link\">\n\t\t\t\t\t{{ phrase('start_conversation') }}\n\t\t\t\t</xf:button>\n\t\t\t</xf:if>",
+    "replace": "$0\n<xf:button href=\"{{ link('members/give-feedback', $user) }}\" class=\"button--link\" data-xf-click=\"overlay\">\n\t{{ phrase('xentrader_give_feedback') }}\n</xf:button>"
+}

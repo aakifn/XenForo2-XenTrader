@@ -4,5 +4,59 @@
         "version_id": 4000010,
         "version_string": "4.0.0 Alpha",
         "hash": "dfe584b8e4b0e496223e427a41ccda85"
+    },
+    "option_group.xentrader.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "d6d5f915cb6563638ec7723dbef4cce4"
+    },
+    "option_group_description.xentrader.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "xentrader_buyer.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "65fba9ec06765f60ab9510fff2bd2b16"
+    },
+    "xentrader_feedback.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "bea4c2c8eb82d05891ddd71584881b56"
+    },
+    "xentrader_give_feedback.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "70aaba87e569caaf0a02a08c79916a85"
+    },
+    "xentrader_seller.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "1e62e6ce22608229f9e7d30baae981ee"
+    },
+    "xentrader_tell_us_more.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "8606ce056b644904b1b90b02e0e3dec9"
+    },
+    "xentrader_trader.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "1771895abd68a02faf9440de2c009077"
+    },
+    "xentrader_your_role.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "fa1423cf4da0836fb9158eb8dedcbeac"
     }
 }
