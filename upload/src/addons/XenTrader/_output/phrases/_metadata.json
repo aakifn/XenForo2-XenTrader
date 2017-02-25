@@ -35,6 +35,36 @@
         "version_string": "4.0.0 Alpha",
         "hash": "70aaba87e569caaf0a02a08c79916a85"
     },
+    "xentrader_how_would_you_rate_experience.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "9bbfc07dd34e1b4bbf6701c921537919"
+    },
+    "xentrader_negative.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "ffb9356ff2b7da85c75c92fa7ea03b8b"
+    },
+    "xentrader_neutral.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "e9bb5320b3890b6747c91b5a71ae5a01"
+    },
+    "xentrader_positive.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "3289297424e01eda5b788c083bbf3147"
+    },
+    "xentrader_rating.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "dda9c06f33071c9b6fc237ee164109d8"
+    },
     "xentrader_seller.txt": {
         "global_cache": false,
         "version_id": 4000010,
@@ -52,6 +82,12 @@
         "version_id": 4000010,
         "version_string": "4.0.0 Alpha",
         "hash": "1771895abd68a02faf9440de2c009077"
+    },
+    "xentrader_what_was_your_role_in_transaction.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "7dac108d7b221158b31fcefc9a3d3733"
     },
     "xentrader_your_role.txt": {
         "global_cache": false,
