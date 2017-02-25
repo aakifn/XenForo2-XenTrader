@@ -1,1 +1,3 @@
-# XenForo2-XenTrader
+# XenTrader
+
+Port of original XenTrader to XenForo 2.
