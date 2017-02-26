@@ -1,5 +1,13 @@
 {
     "title": "XenTrader",
+    "description": "A simple yet powerful user feedback system.",
     "version_string": "4.0.0 Alpha",
-    "version_id": 4000010
+    "version_id": 4000010,
+    "dev": "NixFifty",
+    "dev_url": "https://nixfifty.com",
+    "support_url": "https://xenforo.com/community/threads/xentrader.27673",
+    "extra_urls": {
+        "GitHub": "https://github.com/NixFifty/XenForo2-XenTrader"
+    },
+    "icon": "fa-thumbs-up"
 }
