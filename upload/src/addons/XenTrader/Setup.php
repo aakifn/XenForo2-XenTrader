@@ -27,10 +27,9 @@ class Setup extends AbstractSetup
             	`to_user_id` INT(10) UNSIGNED NOT NULL,
             	`to_username` VARCHAR(50) NOT NULL,
             	`thread_id` INT(10) NOT NULL,
-            	`thread_title` VARCHAR(150) NOT NULL,
             	`feedback` VARCHAR(80) NOT NULL,
             	`rating` TINYINT(1) NOT NULL,
-            	`type` ENUM('buy','sell','trade') NOT NULL,
+            	`role` ENUM('buyer', 'seller', 'trader') NOT NULL,
             	`feedback_date` INT(10) UNSIGNED NOT NULL,
 	            PRIMARY KEY (`feedback_id`)
 	        ) {$defaultTableConfig}
