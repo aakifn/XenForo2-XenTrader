@@ -12,7 +12,12 @@ class Member extends XFCP_Member
 
 		if ($this->isPost())
 		{
+			$visitor = \XF::visitor();
+
 			// todo: save feedback
+			$feedback = $this->filter('feedback', 'str');
+
+			return $this->redirect($this->getDynamicRedirect());
 		}
 		else
 		{
