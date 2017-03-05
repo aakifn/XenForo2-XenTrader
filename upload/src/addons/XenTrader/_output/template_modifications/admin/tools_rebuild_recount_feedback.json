@@ -1,0 +1,9 @@
+{
+    "template": "tools_rebuild",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:form action=\"{{ link('tools/rebuild') }}\" class=\"block\">\n\t<div class=\"block-container\">\n\t\t<h2 class=\"block-header\">{{ phrase('rebuild_conversation_embed_metadata') }}</h2>\n\t\t<div class=\"block-body\">\n\t\t\t<xf:checkboxrow name=\"options[types]\" listclass=\"listColumns\">\n\t\t\t\t<xf:option value=\"attachments\"\n\t\t\t\t\tlabel=\"{{ phrase('attachments') }}\"\n\t\t\t\t\tselected=\"true\"\n\t\t\t\t/>\n\t\t\t</xf:checkboxrow>\n\t\t</div>\n\t\t<xf:submitrow submit=\"{{ phrase('rebuild_now') }}\" />\n\t</div>\n\t<xf:hiddenval name=\"job\">XF:ConversationEmbedMetadata</xf:hiddenval>\n</xf:form>",
+    "replace": "$0\n\n<xf:form action=\"{{ link('tools/rebuild') }}\" class=\"block\">\n\t<div class=\"block-container\">\n\t\t<h2 class=\"block-header\">{{ phrase('xentrader_rebuild_feedback_count') }}</h2>\n\t\t<xf:submitrow submit=\"{{ phrase('rebuild_now') }}\" />\n\t</div>\n\t<xf:hiddenval name=\"job\">XenTrader:FeedbackCount</xf:hiddenval>\n</xf:form>"
+}

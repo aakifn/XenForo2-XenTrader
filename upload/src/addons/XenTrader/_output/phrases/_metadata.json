@@ -41,6 +41,12 @@
         "version_string": "4.0.0 Alpha",
         "hash": "bea4c2c8eb82d05891ddd71584881b56"
     },
+    "xentrader_feedback_counts.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "c262f7bba108ab5c668665ff33f698b4"
+    },
     "xentrader_feedback_received.txt": {
         "global_cache": false,
         "version_id": 4000010,
@@ -82,6 +88,12 @@
         "version_id": 4000010,
         "version_string": "4.0.0 Alpha",
         "hash": "dda9c06f33071c9b6fc237ee164109d8"
+    },
+    "xentrader_rebuild_feedback_count.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "f66cf917a4bb2571637ae17c3eb62812"
     },
     "xentrader_seller.txt": {
         "global_cache": false,
