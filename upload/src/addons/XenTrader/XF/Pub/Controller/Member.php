@@ -14,8 +14,21 @@ class Member extends XFCP_Member
 		{
 			$visitor = \XF::visitor();
 
-			// todo: save feedback
-			$feedback = $this->filter('feedback', 'str');
+			$input = $this->filter([
+				'role' => 'str',
+				'rating' => 'str',
+				'feedback' => 'str',
+			]);
+
+			$input['from_user_id'] = $visitor->user_id;
+			$input['from_username'] = $visitor->username;
+			$input['to_user_id'] = $user->user_id;
+			$input['to_username'] = $user->username;
+
+			/** @var \XenTrader\Entity\Feedback $entity */
+			$entity = \XF::em()->create('XenTrader:Feedback');
+			$entity->bulkSet($input);
+			$entity->save();
 
 			return $this->redirect($this->getDynamicRedirect());
 		}
