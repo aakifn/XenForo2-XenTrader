@@ -1,0 +1,9 @@
+{
+    "template": "member_macros",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$xf.options.enableTrophies\">\n\t\t<dl class=\"pairs pairs--rows pairs--rows--centered fauxBlockLink\">\n\t\t\t<dt title=\"{{ phrase('trophy_points') }}\">{{ phrase('points') }}</dt>\n\t\t\t<dd>\n\t\t\t\t<a href=\"{{ link('members/trophies', $user) }}\" data-xf-click=\"overlay\" class=\"fauxBlockLink-blockLink u-concealed\">\n\t\t\t\t\t{$user.trophy_points|number}\n\t\t\t\t</a>\n\t\t\t</dd>\n\t\t</dl>\n\t</xf:if>",
+    "replace": "$0\n\n<dl class=\"pairs pairs--rows pairs--rows--centered\">\n\t\t<dt title=\"{{ phrase('xentrader_feedback_received') }}\">{{ phrase('xentrader_feedback') }}</dt>\n\t\t<dd>\n\t\t\t1 / 2 / 3\n\t\t</dd>\n\t</dl>"
+}

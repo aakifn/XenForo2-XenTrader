@@ -1,5 +1,8 @@
 {
     "public/xentrader_give_feedback_member_macro.json": {
         "hash": "f0d99b342cd7e52c543f9baf26891f70"
+    },
+    "public/xentrader_member_macros_feedback.json": {
+        "hash": "20b970258b8121520eddde699e05d957"
     }
 }

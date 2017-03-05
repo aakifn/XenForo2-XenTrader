@@ -41,6 +41,12 @@
         "version_string": "4.0.0 Alpha",
         "hash": "bea4c2c8eb82d05891ddd71584881b56"
     },
+    "xentrader_feedback_received.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "e073917cd25b193bb4c2a12f02cbde93"
+    },
     "xentrader_give_feedback.txt": {
         "global_cache": false,
         "version_id": 4000010,
