@@ -6,6 +6,18 @@ use XF\Mvc\Entity\Structure;
 
 class Feedback extends \XF\Mvc\Entity\Entity
 {
+	protected function _postSave()
+	{
+		$userFeedback = $this->getRelationOrDefault('UserFeedback', false);
+
+		$userFeedback->bulkSet([
+			'user_id' => $this->get('to_user_id'),
+			$this->get('rating') => 1
+		]);
+
+		$userFeedback->save();
+	}
+
 	public static function getStructure(Structure $structure)
 	{
 		$structure->table = 'xf_xentrader_feedback';
@@ -25,6 +37,13 @@ class Feedback extends \XF\Mvc\Entity\Entity
 		];
 		$structure->getters = [];
 		$structure->relations = [
+			'UserFeedback' =>  [
+				'entity' => 'XenTrader:UserFeedback',
+				'type' => self::TO_ONE,
+				'conditions' => [
+					['user_id', '=', '$to_user_id']
+				]
+			],
 			'Thread' => [
 				'entity' => 'XF:Thread',
 				'type' => self::TO_ONE,
