@@ -1,8 +1,11 @@
 {
+    "admin/tools_rebuild_recount_feedback.json": {
+        "hash": "b408e263070b2af07d7f9754c84d15a2"
+    },
     "public/xentrader_give_feedback_member_macro.json": {
         "hash": "f0d99b342cd7e52c543f9baf26891f70"
     },
     "public/xentrader_member_macros_feedback.json": {
-        "hash": "0d4de0b155475065696fa192cff84182"
+        "hash": "3444d4c987127d9f248056ba09a02f98"
     }
 }
