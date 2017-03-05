@@ -17,6 +17,18 @@
         "version_string": "4.0.0 Alpha",
         "hash": "d41d8cd98f00b204e9800998ecf8427e"
     },
+    "style_prop_group.xentrader.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "dfe584b8e4b0e496223e427a41ccda85"
+    },
+    "style_prop_group_desc.xentrader.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
     "xentrader_buyer.txt": {
         "global_cache": false,
         "version_id": 4000010,
