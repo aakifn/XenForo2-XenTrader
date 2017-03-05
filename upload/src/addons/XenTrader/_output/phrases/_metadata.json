@@ -71,17 +71,35 @@
         "version_string": "4.0.0 Alpha",
         "hash": "ffb9356ff2b7da85c75c92fa7ea03b8b"
     },
+    "xentrader_negative_feedback.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "dda727076862df642b4f456463d16e6c"
+    },
     "xentrader_neutral.txt": {
         "global_cache": false,
         "version_id": 4000010,
         "version_string": "4.0.0 Alpha",
         "hash": "e9bb5320b3890b6747c91b5a71ae5a01"
     },
+    "xentrader_neutral_feedback.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "72410617422ac55097e9fce192505b21"
+    },
     "xentrader_positive.txt": {
         "global_cache": false,
         "version_id": 4000010,
         "version_string": "4.0.0 Alpha",
         "hash": "3289297424e01eda5b788c083bbf3147"
+    },
+    "xentrader_positive_feedback.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "c513272b77d76aa1172de56ce347d504"
     },
     "xentrader_rating.txt": {
         "global_cache": false,
@@ -106,6 +124,12 @@
         "version_id": 4000010,
         "version_string": "4.0.0 Alpha",
         "hash": "8606ce056b644904b1b90b02e0e3dec9"
+    },
+    "xentrader_total_feedback.txt": {
+        "global_cache": false,
+        "version_id": 4000010,
+        "version_string": "4.0.0 Alpha",
+        "hash": "ffc0881bcc7cadba783222624b50a7d6"
     },
     "xentrader_trader.txt": {
         "global_cache": false,
