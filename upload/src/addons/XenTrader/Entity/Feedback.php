@@ -9,11 +9,19 @@ class Feedback extends \XF\Mvc\Entity\Entity
 	protected function _postSave()
 	{
 		$userFeedback = $this->getRelationOrDefault('UserFeedback', false);
+		$rating = $this->get('rating');
 
-		$userFeedback->bulkSet([
-			'user_id' => $this->get('to_user_id'),
-			$this->get('rating') => 1
-		]);
+		$userFeedback->set('user_id', $this->get('to_user_id'));
+
+		switch($rating)
+		{
+			case 'positive':
+				$userFeedback->set('positive', $userFeedback->positive + 1); break;
+			case 'negative':
+				$userFeedback->set('negative', $userFeedback->negative + 1); break;
+			case 'neutral':
+				$userFeedback->set('neutral', $userFeedback->neutral + 1); break;
+		}
 
 		$userFeedback->save();
 	}

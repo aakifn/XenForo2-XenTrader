@@ -11,7 +11,7 @@ class UserFeedback extends \XF\Mvc\Entity\Entity
 		if ($this->isChanged('positive') || $this->isChanged('negative'))
 		{
 			$total = $this->get('positive') - $this->get('negative');
-			$this->set('total_count', $total);
+			$this->set('total', $total);
 		}
 	}
 
