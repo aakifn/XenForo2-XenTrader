@@ -9,5 +9,8 @@
     "extra_urls": {
         "GitHub": "https://github.com/NixFifty/XenForo2-XenTrader"
     },
+    "require": {
+        "php": ["5.6.0", "PHP 5.6.0+"]
+    },
     "icon": "fa-thumbs-up"
 }
